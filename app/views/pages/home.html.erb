@@ -2,8 +2,49 @@
 
 <div class="jumbotron text-center">
   <h1>Welcome to the Dev Match</h1>
-  <h3>A membership site where entepreneurs can meet developers.</h3>
+  <h3>A membership site where entepreneurs can meet developers. We Want To Help You Connect & Build Your Business.</h3>
 </div>
+
+<!--  -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active ">
+      <img src="http://www.1871.com/wp-content/uploads/2014/02/DSC_6850-1280x800.jpg" alt="...">
+    </div>
+    <div class="item activ">
+      <img src="http://static1.squarespace.com/static/54fc9823e4b044304147d402/t/55004fe1e4b04fad40592fcb/1426083979373/the-lab-miami-03.jpg?format=1000w" alt="">
+      
+    </div>
+    
+    <div class="item activ">
+      <img src="http://www.1871.com/wp-content/uploads/2014/02/DSC_7027-1280x800.jpg" alt="...">
+      
+    </div>
+  
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
 
 <div class="row">
   <% if user_signed_in? %>
@@ -24,7 +65,7 @@
    <div class="col-md-6">
      <div class="well">
      <h2 class='text-center'>The community</h2>
-     <p >Visit the community to meet other developers, entrepreneurs, and investors!</p>
+     <p >Visit the community to meet other developers, entrepreneurs, and investors!</p><br/>
        <%= link_to "Visit Our Communtity", users_path, class: 'btn btn-default btn-lg btn-block' %>
    </div>
      </div>
